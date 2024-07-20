@@ -88,7 +88,7 @@ mask.export_patches(
 
 The first strictly positional argument `export_dir` defines the path to export the images which in this examples is the
 current directory. `width` and `height` define the patch size. If `use_patchify` is `True`, a
-non-overlapping `width x height` images will be produced using `[patchify](https://pypi.org/project/patchify/)`. If it
+non-overlapping `width x height` images will be produced using [`patchify`](https://pypi.org/project/patchify/). If it
 is `False`, then [`gdal_retile`](https://gdal.org/programs/gdal_retile.html) will be used to patch. `gdal_retile` may
 not produce patches of uniform size, i.e., not all images will have `width x height` dimension. `name_suffix` defines
 the suffix to add to the folder where everything will be exported. `name_suffix="main"` here would export everything
