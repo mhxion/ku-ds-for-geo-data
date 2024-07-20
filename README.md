@@ -5,7 +5,8 @@ path to the raster and elevation (DEM) data (ideally in `tif` formats), and can 
 organized `train/validation/test` folder structure (suitable
 for [`tensorflow.keras.preprocessing.image.ImageDataGenerator`](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator#flow_from_directory)).
 
-<video src='assets/automask_labeling_1080p.mp4'></video>
+<video src='https://github.com/user-attachments/assets/47ad7dad-ced3-42be-9876-21df0339d080'> </video>
+<p align="center">How labeling with AutoMask works in a nutshell</p>
 
 ## Usage
 
